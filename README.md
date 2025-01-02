@@ -145,7 +145,7 @@ composer create-project --prefer-dist laravel/laravel [LARAVEL PROJECT NAME]
 
 Make sure you give the correct ownership:
 ```
-sudo chown laravel-project http:muta
+sudo chown laravel-project http:[SOME-GROUP]
 ```
 
 Fix this dumb permission error (I don't think this is necessary anymore since we changed the owner to http):
